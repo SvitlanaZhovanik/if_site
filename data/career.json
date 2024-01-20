@@ -1,0 +1,73 @@
+{
+  "title": "Career",
+  "list": [
+    {
+      "name": "Support Manager",
+      "subtitle": "Are you passionate about helping others and providing exceptional customer service? We are seeking a dedicated Support Specialist to join our team and assist our valued customers with their inquiries and concerns.",
+      "responsibilities": {
+        "title": "Key Responsibilities",
+        "list": [
+          "1. Customer Assistance: Respond to customer inquiries via various channels, including email, chat, and phone, providing timely and accurate information to resolve issue",
+          "2. Issue Resolution: Investigate and troubleshoot customer problems, collaborating with cross-functional teams to ensure prompt and effective resolution.",
+          "3. Product Knowledge: Develop a deep understanding of our products/services to effectively assist customers and provide relevant information.",
+          "4. Documentation: Maintain detailed and accurate records of customer interactions, feedback, and resolutions.",
+          "5. Continuous Improvement: Contribute to the improvement of support processes by identifying common issues and suggesting proactive solutions."
+        ]
+      },
+      "quality": {
+        "title": "Qualifications",
+        "list": [
+          "- Excellent communication skills, both written and verbal.",
+          "- Strong problem-solving ability and a customer-centric mindset.",
+          "- Ability to work well under pressure and handle challenging situations with empathy.",
+          "- Familiarity with customer support software and tools is a plus."
+        ]
+      },
+      "requirements": {
+        "title": "Requirements",
+        "list": [
+          "- High school diploma or equivalent; additional education or certification in customer service is a plus.",
+          "- 2 years of experience in B2B sales, preferably in [Forex , funds, affiliate network].",
+          "- Proficiency in [relevant software/tools].",
+          "- Excellent organizational and time management skills."
+        ]
+      },
+      "text": "If you are a proactive and customer-oriented individual looking to contribute to a positive customer experience, we invite you to apply for the Support Specialist position. Join our team and be an integral part of providing excellent support to our valued customers."
+    },
+    {
+      "name": "Sales Manager",
+      "subtitle": "Are you a dynamic and results-driven individual with a passion for B2B sales? We are seeking a skilled Sales Manager to join our team and drive business growth through strategic client acquisition and relationship management.",
+      "responsibilities": {
+        "title": "Key Responsibilities",
+        "list": [
+          "1. Client Acquisition: Identify and target potential B2B clients, understanding their needs, and presenting tailored solutions to drive sales.",
+          "2. Relationship Management: Cultivate and maintain strong relationships with existing clients, ensuring client satisfaction and identifying opportunities for upselling or cross-selling.",
+          "3. Market Analysis: Stay abreast of industry trends, competitor activities, and market conditions to identify new business opportunities and enhance our competitive edge.",
+          "4. Sales Strategy: Develop and execute effective sales strategies to achieve and exceed sales targets, collaborating with cross-functional teams to ensure alignment with overall business objectives.",
+          "5. Negotiation and Closing: Lead negotiation processes and successfully close deals, ensuring mutually beneficial outcomes for both the client and the company."
+        ]
+      },
+      "quality": {
+        "title": "Qualifications",
+        "list": [
+          "- Proven track record in B2B sales, with a focus on meeting and exceeding targets.",
+          "- Strong interpersonal and communication skills to effectively engage with clients and internal teams.",
+          "- Strategic thinking and the ability to develop and implement successful sales strategies.",
+          "- Experience in negotiating and closing complex B2B deals.",
+          "- Familiarity with the industry and a keen understanding of market dynamics."
+        ]
+      },
+      "requirements": {
+        "title": "Requirements",
+        "list": [
+          "- Bachelor’s degree in Business, Marketing, or a related field.",
+          "- Previous experience in a customer service or support role is preferred.",
+          "- Proficiency in [relevant software/tools].",
+          "- Positive attitude and a willingness to learn and adapt in a dynamic environment.",
+          "- Results-oriented mindset with a commitment to achieving and exceeding sales goals."
+        ]
+      },
+      "text": "If you are a motivated and proactive professional ready to take on a challenging B2B Sales Manager role, we invite you to apply. Join our dynamic team and contribute to our success in the ever-evolving business landscape."
+    }
+  ]
+}

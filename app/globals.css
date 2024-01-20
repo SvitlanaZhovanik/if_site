@@ -1,0 +1,178 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    @apply scroll-smooth;
+  }
+
+  body {
+    @apply font-sans;
+  }
+  textarea {
+    resize: none;
+  }
+}
+
+@layer components {
+  /* Buttons */
+  .btn {
+    @apply w-full max-w-[162px] bg-accent py-2 text-base font-semibold text-white transition duration-300 ease-in-out hover:bg-zinc-600 focus:bg-zinc-600 focus:outline-none focus:ring-2 focus:ring-accent focus:ring-offset-2;
+  }
+  /* Title */
+  .title {
+    @apply text-18/28 font-semibold md:text-20/28;
+  }
+  /* About */
+  .aboutBg {
+    background-image: url('/images/about/bg_mob_1x.webp');
+    background-size: 240px auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  .savingsBg {
+    background-image: url('/images/savings/bg_mob_1x.webp');
+    background-size: 269px auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  .investingBg {
+    background-image: url('/images/investing/bg_mob_1x.webp');
+    background-size: auto 259px;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  .reasonsBg {
+    background-image: url('/images/reasons/bg_mob_1x.webp');
+    background-size: 324px auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  .investmentBg {
+    background-image: url('/images/investment/bg_mob_1x.webp');
+    background-size: 259px auto;
+    background-repeat: no-repeat;
+    background-position: bottom right;
+  }
+  @media screen and (min-device-pixel-ratio: 2),
+    screen and (-moz-min-device-pixel-ratio: 2),
+    screen and (-o-min-device-pixel-ratio: 2/1),
+    screen and (-webkit-min-device-pixel-ratio: 2),
+    screen and (min-resolution: 192dpi),
+    screen and (min-resolution: 2dppx) {
+    .aboutBg {
+      background-image: url('/images/about/bg_mob_2x.webp');
+    }
+    .savingsBg {
+      background-image: url('/images/savings/bg_mob_2x.webp');
+    }
+    .investingBg {
+      background-image: url('/images/investing/bg_mob_2x.webp');
+    }
+    .reasonsBg {
+      background-image: url('/images/reasons/bg_mob_2x.webp');
+    }
+    .investmentBg {
+      background-image: url('/images/investment/bg_mob_2x.webp');
+    }
+  }
+  @media (min-width: 768px) {
+    .aboutBg {
+      background-image: url('/images/about/bg_tab_1x.webp');
+      background-size: 454px auto;
+    }
+    .savingsBg {
+      background-image: url('/images/savings/bg_tab_1x.webp');
+      background-size: 466px auto;
+    }
+    .investingBg {
+      background-image: url('/images/investing/bg_tab_1x.webp');
+      background-size: 449px auto;
+    }
+    .reasonsBg {
+      background-image: url('/images/reasons/bg_tab_1x.webp');
+      background-size: 406px auto;
+    }
+    .investmentBg {
+      background-image: url('/images/investment/bg_tab_1x.webp');
+      background-size: 368px auto;
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (-moz-min-device-pixel-ratio: 2),
+      screen and (-o-min-device-pixel-ratio: 2/1),
+      screen and (-webkit-min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      .aboutBg {
+        background-image: url('/images/about/bg_tab_2x.webp');
+      }
+      .savingsBg {
+        background-image: url('/images/savings/bg_tab_2x.webp');
+      }
+      .investingBg {
+        background-image: url('/images/investing/bg_tab_2x.webp');
+      }
+      .reasonsBg {
+        background-image: url('/images/reasons/bg_tab_2x.webp');
+      }
+      .investmentBg {
+        background-image: url('/images/investment/bg_tab_2x.webp');
+      }
+    }
+  }
+
+  @media (min-width: 1280px) {
+    .aboutBg {
+      background-image: url('/images/about/bg_desk_1x.webp');
+      background-size: 585px auto;
+    }
+    .savingsBg {
+      background-image: url('/images/savings/bg_desk_1x.webp');
+      background-size: 686px auto;
+    }
+    .investingBg {
+      background-image: url('/images/investing/bg_desk_1x.webp');
+      background-size: auto 640px;
+    }
+    .reasonsBg {
+      background-image: url('/images/reasons/bg_desk_1x.webp');
+      background-size: 632px auto;
+    }
+    .investmentBg {
+      background-image: url('/images/investment/bg_desk_1x.webp');
+      background-size: 572px auto;
+    }
+    @media screen and (min-device-pixel-ratio: 2),
+      screen and (-moz-min-device-pixel-ratio: 2),
+      screen and (-o-min-device-pixel-ratio: 2/1),
+      screen and (-webkit-min-device-pixel-ratio: 2),
+      screen and (min-resolution: 192dpi),
+      screen and (min-resolution: 2dppx) {
+      .aboutBg {
+        background-image: url('/images/about/bg_desk_2x.webp');
+      }
+      .savingsBg {
+        background-image: url('/images/savings/bg_desk_2x.webp');
+      }
+      .investingBg {
+        background-image: url('/images/investing/bg_desk_2x.webp');
+      }
+      .reasonsBg {
+        background-image: url('/images/reasons/bg_desk_2x.webp');
+      }
+      .investmentBg {
+        background-image: url('/images/investment/bg_desk_2x.webp');
+      }
+    }
+  }
+
+  /* Form */
+  .inputDefault {
+    @apply mt-1 block w-full border-b border-b-zinc-600 bg-white pb-3 placeholder:text-sm placeholder:text-dark/40 focus:border-accent focus:outline-none focus:ring-accent group-hover:border-accent;
+  }
+
+  .inputError {
+    @apply border-rose-900 focus:border-rose-900 focus:ring-rose-900;
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "title": "What is an Investment fund",
+  "description": "An investment fund is a pooled vehicle that allows investors to collectively invest their money in a diversified portfolio of financial assets. These funds are managed by professional investment managers or fund managers, who make decisions on behalf of the investors. Investment funds provide individuals, institutions, and other investors with access to a broader range of securities and investment opportunities than they might have on their own.",
+  "text": "There are various types of investment funds, including mutual funds, exchange-traded funds (ETFs), hedge funds, and private equity funds. Each type has its own characteristics, investment strategies, and regulatory frameworks. Here are some common types:",
+  "btn": "Request demo",
+  "items": [
+    {
+      "title": "Mutual Funds",
+      "text": "These are investment vehicles that pool money from many investors to invest in a diversified portfolio of stocks, bonds, or other securities. Investors buy shares in the mutual fund, and the value of these shares fluctuates based on the performance of the underlying investments."
+    },
+    {
+      "title": "Exchange-Traded Funds (ETFs)",
+      "text": "Similar to mutual funds, ETFs also pool money from investors to invest in a diversified portfolio of assets. However, ETFs are traded on stock exchanges like individual stocks. Investors buy and sell ETF shares throughout the trading day at market prices."
+    },
+    {
+      "title": "Hedge Funds",
+      "text": "These are investment funds that typically cater to sophisticated or high-net-worth investors. Hedge funds use a variety of strategies, including leverage and derivatives, to generate returns. They often have more flexibility in their investment approach compared to mutual funds."
+    },
+    {
+      "title": "Private Equity Funds",
+      "text": "These funds invest in private companies by acquiring significant ownership stakes. Private equity funds may be involved in various stages of a company's life cycle, including venture capital for early-stage companies or buyouts of established businesses."
+    }
+  ]
+}

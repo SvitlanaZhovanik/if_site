@@ -1,0 +1,12 @@
+{
+  "title": "Contacts",
+  "description": "Please use the form below to get in touch with us. Whether you have questions about our products, services, or just want to say hello, we look forward to hearing from you. Our team will do its best to respond promptly.",
+  "email": {
+    "label": "admin@interactivefunds.com",
+    "url": "mailto:admin@interactivefunds.com"
+  },
+  "telegram": {
+    "label": "@INTERACTIVEFUNDS",
+    "url": "https://t.me/interactivefunds"
+  }
+}

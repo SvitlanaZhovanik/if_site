@@ -1,0 +1,31 @@
+{
+  "title": "INTERACTIVE FUNDS",
+  "description": "Ready to take off into the world of investments?",
+  "twitter": {
+    "title": "INTERACTIVE FUNDS",
+    "card": "summary_large_image",
+    "images": [
+      {
+        "url": "/meta/ogp.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Ready to take off into the world of investments?"
+      }
+    ],
+    "description": "Choose our platform and open new horizons in managing your investment fund."
+  },
+  "openGraph": {
+    "images": [
+      {
+        "url": "/meta/ogp.jpg",
+        "width": 1200,
+        "height": 630,
+        "alt": "Ready to take off into the world of investments?"
+      }
+    ],
+    "description": "Choose our platform and open new horizons in managing your investment fund.",
+    "type": "website",
+    "locale": "en_US",
+    "title": "INTERACTIVE FUNDS - Ready to take off into the world of investments?"
+  }
+}
