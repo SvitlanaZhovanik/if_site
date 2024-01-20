@@ -95,7 +95,7 @@ export const FormModal: FC<FormModalProps> = ({ text }) => {
       >
         <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
         <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
-          <Dialog.Panel className="relative mx-auto w-full max-w-[480px] rounded-sm bg-white px-5 py-8 text-dark md:max-w-[704px] xl:max-w-[760px]">
+          <Dialog.Panel className="relative mx-auto w-full max-w-[450px] rounded-sm bg-white px-5 py-8 text-dark md:max-w-[704px] xl:max-w-[760px]">
             {isSending ? (
               <>
                 <Dialog.Title className="mb-5 text-center text-sm font-semibold md:text-18/28">

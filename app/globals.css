@@ -169,7 +169,7 @@
 
   /* Form */
   .inputDefault {
-    @apply mt-1 block w-full border-b border-b-zinc-600 bg-white pb-3 placeholder:text-sm placeholder:text-dark/40 focus:border-accent focus:outline-none focus:ring-accent group-hover:border-accent;
+    @apply mt-1 block w-full rounded-none border-b border-b-zinc-600 bg-white pb-3 placeholder:text-sm placeholder:text-dark/40 focus:border-accent focus:outline-none focus:ring-accent group-hover:border-accent;
   }
 
   .inputError {
