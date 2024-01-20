@@ -10,7 +10,7 @@ import gif from '@/public/images/home.gif';
 const Page: NextPage = () => {
   return (
     <section className="relative flex h-full flex-col text-white md:overflow-hidden portrait:overflow-hidden portrait:sm:min-h-[calc(100vh-76px)] portrait:notXL:min-h-[calc(100vh-88px)] landscape:md:min-h-[calc(100vh-88px)]">
-      <div className="container flex-grow pt-[calc(50%-25%)] md:pt-[80px]">
+      <div className="container flex-grow pt-[calc(50%-25%)] md:pt-[80px] mdOnly:pb-[150px]">
         <h1 className="mx-auto mb-7 max-w-[692px] text-center text-20/28 font-semibold md:mb-10 md:text-3xl">
           {home.title}
         </h1>
@@ -19,7 +19,7 @@ const Page: NextPage = () => {
         </p>
         <a
           href={home.link.href}
-          className="landscape:smOnly::mb-10 group flex items-center justify-center gap-2 text-sm font-medium"
+          className="group flex items-center justify-center gap-2 text-sm font-medium landscape:smOnly:mb-10"
           target="_blank"
           rel="noopener noreferrer nofollow"
         >
