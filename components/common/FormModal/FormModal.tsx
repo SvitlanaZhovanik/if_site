@@ -122,7 +122,10 @@ export const FormModal: FC<FormModalProps> = ({ text }) => {
                 <Dialog.Description className="mb-5 text-xs md:text-sm">
                   <form className="w-full" onSubmit={handleSubmit(onSubmit)}>
                     <div className="mb-10 grid w-full grid-cols-1 gap-8 md:grid-cols-2">
-                      <Label labelText={'Name*'} className="group text-left">
+                      <Label
+                        labelText={'Name*'}
+                        className="group text-left text-base"
+                      >
                         <Input
                           {...register('name')}
                           error={errors.name?.message}
@@ -130,7 +133,10 @@ export const FormModal: FC<FormModalProps> = ({ text }) => {
                         />
                       </Label>
 
-                      <Label labelText={'Email*'} className="group text-left">
+                      <Label
+                        labelText={'Email*'}
+                        className="group text-left text-base"
+                      >
                         <Input
                           {...register('email')}
                           error={errors.email?.message}
@@ -138,7 +144,10 @@ export const FormModal: FC<FormModalProps> = ({ text }) => {
                         />
                       </Label>
 
-                      <Label labelText={'Phone*'} className="group text-left ">
+                      <Label
+                        labelText={'Phone*'}
+                        className="group text-left text-base"
+                      >
                         <Input
                           {...register('phone')}
                           error={errors.phone?.message}
@@ -146,14 +155,20 @@ export const FormModal: FC<FormModalProps> = ({ text }) => {
                         />
                       </Label>
 
-                      <Label labelText={'WhatsApp'} className="group text-left">
+                      <Label
+                        labelText={'WhatsApp'}
+                        className="group text-left text-base"
+                      >
                         <Input
                           {...register('whatsapp')}
                           error={errors.whatsapp?.message}
                           placeholder="+44 (000) 00000"
                         />
                       </Label>
-                      <Label labelText={'Telegram'} className="group text-left">
+                      <Label
+                        labelText={'Telegram'}
+                        className="group text-left text-base"
+                      >
                         <Input
                           {...register('telegram')}
                           error={errors.telegram?.message}
