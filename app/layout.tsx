@@ -22,6 +22,12 @@ type Props = {
 export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,
+  viewport: {
+    width: 'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  },
+
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
   ),
