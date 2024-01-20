@@ -93,8 +93,8 @@ export const FormModal: FC<FormModalProps> = ({ text }) => {
         onClose={() => setIsModalOpen(false)}
         className="relative z-50"
       >
-        <div className="fixed inset-0 bg-black/30" aria-hidden="true" />
-        <div className="fixed inset-0 flex w-screen items-center justify-center p-4">
+        <div className="fixed inset-0 " aria-hidden="true" />
+        <div className="fixed inset-0 flex w-screen items-center justify-center bg-black/90 p-4">
           <Dialog.Panel className="relative mx-auto w-full max-w-[450px] rounded-sm bg-white px-5 py-8 text-dark md:max-w-[704px] xl:max-w-[760px]">
             {isSending ? (
               <>

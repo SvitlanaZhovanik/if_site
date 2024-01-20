@@ -9,7 +9,7 @@ import gif from '@/public/images/home.gif';
 
 const Page: NextPage = () => {
   return (
-    <section className="relative flex h-full flex-col text-white md:overflow-hidden portrait:overflow-hidden portrait:sm:min-h-[calc(100vh-76px)] portrait:notXL:min-h-[calc(100vh-88px)] landscape:smOnly:pb-[200px] landscape:mdOnly:pb-[400px]">
+    <section className="relative flex h-full flex-col text-white md:overflow-hidden portrait:overflow-hidden portrait:sm:min-h-[calc(100vh-76px)] portrait:notXL:min-h-[calc(100vh-88px)] landscape:md:min-h-[calc(100vh-88px)] landscape:smOnly:pb-[200px] landscape:mdOnly:pb-[400px]">
       <div className="container flex-grow pt-[calc(50%-25%)] md:pt-[80px]">
         <h1 className="mx-auto mb-7 max-w-[692px] text-center text-20/28 font-semibold md:mb-10 md:text-3xl">
           {home.title}
