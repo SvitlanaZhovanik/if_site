@@ -6,7 +6,7 @@
     "card": "summary_large_image",
     "images": [
       {
-        "url": "/public/meta/ogp.webp",
+        "url": "/meta/ogp.webp",
         "width": 1200,
         "height": 630,
         "alt": "Ready to take off into the world of investments?"
@@ -17,7 +17,7 @@
   "openGraph": {
     "images": [
       {
-        "url": "/public/meta/ogp.webp",
+        "url": "/meta/ogp.webp",
         "width": 1200,
         "height": 630,
         "alt": "Ready to take off into the world of investments?"
