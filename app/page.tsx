@@ -5,7 +5,6 @@ import { NextPage } from 'next/types';
 import home from '@/data/home.json';
 
 import Telegram from '@/public/telegram.svg';
-import blurImage from '@/public/images/investing/bg_desk_1x.webp';
 
 const Page: NextPage = () => {
   return (
@@ -33,8 +32,6 @@ const Page: NextPage = () => {
         alt={home.image.alt}
         width={856}
         height={483}
-        placeholder="blur"
-        blurDataURL={blurImage.src}
         priority
       />
     </section>
