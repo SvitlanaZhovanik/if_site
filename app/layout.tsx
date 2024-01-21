@@ -41,6 +41,15 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Props) {
   return (
     <html lang="en">
+      <head>
+        <link rel="preload" href="https://svsfvdsg.b-cdn.net/" as="media" />
+
+        <link
+          rel="preload"
+          href="https://svsfvdsg.b-cdn.net/home.gif"
+          as="image"
+        />
+      </head>
       <body
         className={clsx(
           montserrat.className,
