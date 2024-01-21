@@ -65,7 +65,7 @@ export default async function PartnersPage({
             width={data?.image.width}
             height={data?.image.height}
             priority
-            className="absolute -bottom-3 right-0 h-[230px] w-[230px] md:bottom-[30%] md:h-[300px] md:w-[300px] xl:-bottom-6 xl:h-[500px] xl:w-auto"
+            className="absolute -bottom-3 right-0 h-[230px] w-[230px] md:bottom-[30%] md:h-[300px] md:w-[300px] xl:-bottom-6 xl:right-[calc(50%-720px)] xl:h-[500px] xl:w-auto"
           />
         )}
         {data?.id === 'reseller' && (
