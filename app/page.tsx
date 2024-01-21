@@ -5,6 +5,10 @@ import { NextPage } from 'next/types';
 import home from '@/data/home.json';
 
 import Telegram from '@/public/telegram.svg';
+import gif from '@/public/images/home.gif';
+
+import { getBase64 } from '@/utils/getBase64';
+import { shimmer } from '@/utils/shimmer';
 
 const Page: NextPage = () => {
   return (
@@ -27,11 +31,15 @@ const Page: NextPage = () => {
         </a>
       </div>
       <Image
-        className="-bottom-[20px] left-0 right-0 sm:-bottom-[40px] sm:left-[calc(50%-240px)] sm:max-w-[480px] md:absolute md:-bottom-[60px] md:left-[calc(50%-352px)] md:max-w-[704px] xl:-bottom-[80px] xl:left-[calc(50%-428px)] xl:max-w-[856px] portrait:notXL:absolute landscape:smOnly:mx-auto"
-        src="https://svsfvdsg.b-cdn.net/home.gif"
+        className="bottom-[40px] left-0 right-0 sm:-bottom-[40px] sm:left-[calc(50%-240px)] sm:max-w-[480px] md:absolute md:-bottom-[60px] md:left-[calc(50%-352px)] md:max-w-[704px] xl:-bottom-[80px] xl:left-[calc(50%-428px)] xl:max-w-[856px] portrait:notXL:absolute landscape:smOnly:mx-auto"
+        src={gif}
         alt={home.image.alt}
         width={856}
         height={483}
+        placeholder="blur"
+        blurDataURL={`data:image/svg+xml;base64,${getBase64(
+          shimmer(388, 388),
+        )}`}
         priority
       />
     </section>

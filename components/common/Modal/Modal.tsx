@@ -27,7 +27,7 @@ export const Modal: FC<ModalProps> = ({
       onClose={() => setIsOpen(false)}
       className="relative z-50"
     >
-      <div className="fixed inset-0 " aria-hidden="true" />
+      <div className="fixed inset-0" aria-hidden="true" />
       <div className="fixed inset-0 flex w-screen items-center justify-center bg-black/90 p-4">
         <Dialog.Panel className="mx-auto max-w-[90%] rounded-sm bg-white p-8 text-dark md:max-w-[440px]">
           <Dialog.Title className="mb-5 text-sm font-semibold md:text-18/28">

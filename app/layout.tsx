@@ -6,6 +6,7 @@ import { NextFont } from 'next/dist/compiled/@next/font';
 import clsx from 'clsx';
 
 import { Header } from '@/components/layout/Header';
+import { CookiesNotify } from '@/components/common/CookiesNotify';
 import meta from '@/data/meta.json';
 
 const montserrat: NextFont = Montserrat({
@@ -22,12 +23,6 @@ type Props = {
 export const metadata: Metadata = {
   title: meta.title,
   description: meta.description,
-  viewport: {
-    width: 'device-width',
-    initialScale: 1,
-    maximumScale: 1,
-  },
-
   metadataBase: new URL(
     process.env.NEXT_PUBLIC_SITE_URL || 'http://localhost:3000',
   ),
@@ -41,15 +36,6 @@ export const metadata: Metadata = {
 export default function RootLayout({ children }: Props) {
   return (
     <html lang="en">
-      <head>
-        <link rel="preload" href="https://svsfvdsg.b-cdn.net/" as="media" />
-
-        <link
-          rel="preload"
-          href="https://svsfvdsg.b-cdn.net/home.gif"
-          as="image"
-        />
-      </head>
       <body
         className={clsx(
           montserrat.className,
@@ -60,6 +46,7 @@ export default function RootLayout({ children }: Props) {
 
         <main className="flex-grow" role="main">
           {children}
+          <CookiesNotify />
         </main>
       </body>
     </html>

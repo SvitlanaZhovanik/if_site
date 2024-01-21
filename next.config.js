@@ -4,7 +4,6 @@ const nextConfig = {
 
   images: {
     formats: ['image/webp'],
-    domains: ['svsfvdsg.b-cdn.net'],
   },
 
   webpack: config => {

@@ -56,8 +56,8 @@ const config: Config = {
         },
       },
       animation: {
-        slideDown: 'slideDown 500ms cubic-bezier(0.87, 0, 0.13, 1)',
-        slideUp: 'slideUp 500ms cubic-bezier(0.87, 0, 0.13, 1)',
+        slideDown: 'slideDown 200ms cubic-bezier(0.87, 0, 0.13, 1)',
+        slideUp: 'slideUp 200ms cubic-bezier(0.87, 0, 0.13, 1)',
         open: 'open 300ms cubic-bezier(0.87, 0, 0.13, 1)',
       },
     },

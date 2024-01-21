@@ -29,22 +29,10 @@ export const menuItems: NavbarLinkProps[] = [
   {
     title: 'Partners',
     links: [
-      {
-        title: 'Reseller',
-        href: '/reseller',
-      },
-      {
-        title: 'VOIP',
-        href: '/voip',
-      },
-      {
-        title: 'PSP',
-        href: '/psp',
-      },
-      {
-        title: 'ORM',
-        href: '/orm',
-      },
+      { title: 'Reseller', href: '/reseller' },
+      { title: 'VOIP', href: '/voip' },
+      { title: 'PSP', href: '/psp' },
+      { title: 'ORM', href: '/orm' },
     ],
   },
   {
