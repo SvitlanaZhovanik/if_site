@@ -110,7 +110,7 @@ export const Form: FC = () => {
             <Input
               {...register('phone')}
               error={errors.phone?.message}
-              placeholder="+44 (000) 00000"
+              placeholder="+44(000)00000"
             />
           </Label>
           <div className="group relative text-left ">
@@ -151,7 +151,7 @@ export const Form: FC = () => {
             <Input
               {...register('whatsapp')}
               error={errors.whatsapp?.message}
-              placeholder="+44 (000) 00000"
+              placeholder="+44(000)00000"
             />
           </Label>
           <Label labelText={'Telegram'} className="group text-left">

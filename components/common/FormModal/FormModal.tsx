@@ -151,7 +151,7 @@ export const FormModal: FC<FormModalProps> = ({ text }) => {
                         <Input
                           {...register('phone')}
                           error={errors.phone?.message}
-                          placeholder="+44 (000) 00000"
+                          placeholder="+44(000)00000"
                         />
                       </Label>
 
