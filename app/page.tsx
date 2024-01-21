@@ -7,9 +7,6 @@ import home from '@/data/home.json';
 import Telegram from '@/public/telegram.svg';
 import gif from '@/public/images/home.gif';
 
-import { getBase64 } from '@/utils/getBase64';
-import { shimmer } from '@/utils/shimmer';
-
 const Page: NextPage = () => {
   return (
     <section className="relative flex h-full flex-col text-white md:overflow-hidden portrait:overflow-hidden portrait:sm:min-h-[calc(100vh-76px)] portrait:notXL:min-h-[calc(100vh-88px)] landscape:md:min-h-[calc(100vh-88px)] landscape:smOnly:pb-[200px] landscape:mdOnly:pb-[400px]">
@@ -36,10 +33,6 @@ const Page: NextPage = () => {
         alt={home.image.alt}
         width={856}
         height={483}
-        placeholder="blur"
-        blurDataURL={`data:image/svg+xml;base64,${getBase64(
-          shimmer(388, 388),
-        )}`}
         priority
       />
     </section>
