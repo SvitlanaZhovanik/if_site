@@ -64,6 +64,7 @@ export default async function PartnersPage({
             alt={data?.image.alt}
             width={data?.image.width}
             height={data?.image.height}
+            priority
             className="absolute -bottom-3 right-0 h-[230px] w-[230px] md:bottom-[30%] md:h-[300px] md:w-[300px] xl:-bottom-6 xl:h-[500px] xl:w-auto"
           />
         )}
@@ -75,6 +76,7 @@ export default async function PartnersPage({
               width={resellerMob.width}
               height={resellerMob.height}
               className="mt-7 md:hidden"
+              priority
             />
             <Image
               src={resellerTab}
@@ -82,6 +84,7 @@ export default async function PartnersPage({
               width={resellerTab.width}
               height={resellerTab.height}
               className="hidden md:mt-10 md:block"
+              priority
             />
           </div>
         )}
