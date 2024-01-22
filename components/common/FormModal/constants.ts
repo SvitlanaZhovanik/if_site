@@ -9,7 +9,7 @@ export const schema = zod.object({
   phone: zod
     .string()
     .min(10, { message: 'Please enter a valid phone number.' })
-    .regex(/^\+\d{1,3}\\d{3}\\d{5,}$/, {
+    .regex(/^\+\d{1,18}$/, {
       message: 'Please enter a valid phone number .',
     }),
   telegram: zod.string(),
