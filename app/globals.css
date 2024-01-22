@@ -33,21 +33,21 @@
   }
   .savingsBg {
     background-image: url('/images/savings/bg_mob_1x.webp');
-    background-size: 269px auto;
+    background-size: 360px auto;
     background-repeat: no-repeat;
     background-position: bottom right;
   }
   .investingBg {
     background-image: url('/images/investing/bg_mob_1x.webp');
-    background-size: auto 259px;
+    background-size: 340px auto;
     background-repeat: no-repeat;
     background-position: bottom right;
   }
   .reasonsBg {
     background-image: url('/images/reasons/bg_mob_1x.webp');
-    background-size: 324px auto;
+    background-size: 383px auto;
     background-repeat: no-repeat;
-    background-position: bottom right;
+    background-position: bottom -30px right;
   }
   .investmentBg {
     background-image: url('/images/investment/bg_mob_1x.webp');
@@ -88,11 +88,12 @@
     }
     .investingBg {
       background-image: url('/images/investing/bg_tab_1x.webp');
-      background-size: 449px auto;
+      background-size: 412px auto;
     }
     .reasonsBg {
       background-image: url('/images/reasons/bg_tab_1x.webp');
-      background-size: 406px auto;
+      background-size: 373px auto;
+      background-position: bottom right;
     }
     .investmentBg {
       background-image: url('/images/investment/bg_tab_1x.webp');
@@ -125,27 +126,28 @@
   @media (min-width: 1280px) {
     .aboutBg {
       background-image: url('/images/about/bg_desk_1x.webp');
-      background-size: 762px auto;
+      background-size: 1083px auto;
+      background-position: bottom -150px right calc(50% - 400px);
     }
     .savingsBg {
       background-image: url('/images/savings/bg_desk_1x.webp');
-      background-size: 686px auto;
-      background-position: bottom 20px right calc(50% - 250px);
+      background-size: 1037px auto;
+      background-position: bottom -40px right calc(50% - 580px);
     }
     .investingBg {
       background-image: url('/images/investing/bg_desk_1x.webp');
-      background-size: 692px auto;
-      background-position: bottom 20px right calc(50% - 270px);
+      background-size: 938px auto;
+      background-position: bottom -310px right calc(50% - 570px);
     }
     .reasonsBg {
       background-image: url('/images/reasons/bg_desk_1x.webp');
-      background-size: 692px auto;
-      background-position: top 140px right calc(50% - 400px);
+      background-size: 938px auto;
+      background-position: top 110px right calc(50% - 520px);
     }
     .investmentBg {
       background-image: url('/images/investment/bg_desk_1x.webp');
-      background-size: 572px auto;
-      background-position: top 240px right calc(50% - 400px);
+      background-size: 808px auto;
+      background-position: top 140px right calc(50% - 500px);
     }
     @media screen and (min-device-pixel-ratio: 2),
       screen and (-moz-min-device-pixel-ratio: 2),
@@ -168,6 +170,11 @@
       .investmentBg {
         background-image: url('/images/investment/bg_desk_2x.webp');
       }
+    }
+  }
+  @media (min-width: 1920px) {
+    .investingBg {
+      background-position: bottom -130px right calc(50% - 570px);
     }
   }
 

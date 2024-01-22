@@ -36,7 +36,7 @@ export default async function PartnersPage({
         )}
       >
         <h1 className="title mb-5 md:mb-8">{data?.title}</h1>
-        <p className="mb-10 max-w-[640px] text-sm font-normal xl:max-w-[960px]">
+        <p className="mb-10 max-w-[640px] text-sm font-normal xl:max-w-[800px]">
           {data?.description}
         </p>
         <h2 className="mb-10 text-sm font-medium">{data?.subtitle}</h2>
@@ -46,8 +46,8 @@ export default async function PartnersPage({
             data={data.items}
             className={clsx(
               data.id === 'reseller'
-                ? 'mb-10 md:mb-[86px] md:max-w-[386px] xl:max-w-[800px]'
-                : 'mb-10 md:mb-[100px] md:max-w-[336px] xl:max-w-[960px] xl:grid-cols-2',
+                ? 'mb-10 md:mb-[86px] md:max-w-[386px] xl:max-w-[640px]'
+                : 'mb-10 md:mb-[100px] md:max-w-[336px] xl:max-w-[850px] xl:grid-cols-2',
             )}
           />
         )}
@@ -65,7 +65,7 @@ export default async function PartnersPage({
             width={data?.image.width}
             height={data?.image.height}
             priority
-            className="absolute -bottom-3 right-0 h-[230px] w-[230px] md:bottom-[30%] md:h-[300px] md:w-[300px] xl:-bottom-6 xl:h-[500px] xl:w-auto"
+            className="absolute bottom-0 right-0 h-[240px] w-[240px] md:bottom-[30%] md:h-[300px] md:w-[300px] xl:-bottom-6 xl:right-[calc(50%-840px)] xl:h-auto xl:w-auto"
           />
         )}
         {data?.id === 'reseller' && (
