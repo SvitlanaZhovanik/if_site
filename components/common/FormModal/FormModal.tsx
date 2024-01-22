@@ -139,6 +139,7 @@ export const FormModal: FC<FormModalProps> = ({ text }) => {
                       >
                         <Input
                           {...register('email')}
+                          type="email"
                           error={errors.email?.message}
                           placeholder="admin@interactivefunds.com"
                         />
@@ -150,6 +151,7 @@ export const FormModal: FC<FormModalProps> = ({ text }) => {
                       >
                         <Input
                           {...register('phone')}
+                          type="tel"
                           error={errors.phone?.message}
                           placeholder="+44(000)00000"
                         />

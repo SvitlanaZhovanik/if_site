@@ -100,6 +100,7 @@ export const Form: FC = () => {
 
           <Label labelText={'Email*'} className="group text-left">
             <Input
+              type="email"
               {...register('email')}
               error={errors.email?.message}
               placeholder="admin@interactivefunds.com"
