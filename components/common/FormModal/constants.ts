@@ -3,7 +3,7 @@ import * as zod from 'zod';
 export const schema = zod.object({
   name: zod
     .string()
-    .min(3, { message: 'Must be 3 or more characters long' })
+    .min(2, { message: 'Must be 2 or more characters long' })
     .trim(),
   email: zod.string().email({ message: 'Please enter a valid email address.' }),
   phone: zod
