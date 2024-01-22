@@ -125,23 +125,27 @@
   @media (min-width: 1280px) {
     .aboutBg {
       background-image: url('/images/about/bg_desk_1x.webp');
-      background-size: 585px auto;
+      background-size: 762px auto;
     }
     .savingsBg {
       background-image: url('/images/savings/bg_desk_1x.webp');
       background-size: 686px auto;
+      background-position: bottom 20px right calc(50% - 250px);
     }
     .investingBg {
       background-image: url('/images/investing/bg_desk_1x.webp');
-      background-size: auto 640px;
+      background-size: 692px auto;
+      background-position: bottom 20px right calc(50% - 270px);
     }
     .reasonsBg {
       background-image: url('/images/reasons/bg_desk_1x.webp');
-      background-size: 632px auto;
+      background-size: 692px auto;
+      background-position: top 140px right calc(50% - 400px);
     }
     .investmentBg {
       background-image: url('/images/investment/bg_desk_1x.webp');
       background-size: 572px auto;
+      background-position: top 240px right calc(50% - 400px);
     }
     @media screen and (min-device-pixel-ratio: 2),
       screen and (-moz-min-device-pixel-ratio: 2),

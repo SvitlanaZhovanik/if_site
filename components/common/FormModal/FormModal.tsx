@@ -162,7 +162,7 @@ export const FormModal: FC<FormModalProps> = ({ text }) => {
                         <Input
                           {...register('whatsapp')}
                           error={errors.whatsapp?.message}
-                          placeholder="+44 (000) 00000"
+                          placeholder="+44(000)00000"
                         />
                       </Label>
                       <Label
