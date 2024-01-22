@@ -109,6 +109,7 @@ export const Form: FC = () => {
           <Label labelText={'Phone*'} className="group text-left ">
             <Input
               {...register('phone')}
+              type="tel"
               error={errors.phone?.message}
               placeholder="+44(000)00000"
             />
