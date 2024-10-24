@@ -1,13 +1,17 @@
+'use client';
 import React from 'react';
 import Image from 'next/image';
 import { NextPage } from 'next/types';
 
 import home from '@/data/home.json';
+import { useLockBodyScroll, useMedia } from 'react-use';
 
 import Telegram from '@/public/telegram.svg';
 import homeImg from '@/public/images/home.webp';
 
 const Page: NextPage = () => {
+  const isLaptop = useMedia('(min-width: 1280px)');
+  useLockBodyScroll(isLaptop ? true : false);
   return (
     <section className="relative flex h-full flex-col text-white md:overflow-hidden portrait:overflow-hidden portrait:sm:min-h-[calc(100vh-76px)] portrait:notXL:min-h-[calc(100vh-80px)] landscape:md:min-h-[calc(100vh-80px)] landscape:smOnly:pb-[200px] landscape:mdOnly:pb-[400px]">
       <div className="container flex-grow pt-[calc(50%-25%)] md:pt-[120px]">
